@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f1f2f6;
+}
+
+
+body {
+    background-image: linear-gradient(rgba(39, 24, 126, 0.3), rgba(39, 24, 126, 0.3)), url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.qualtrics.com%2Fm%2Fassets%2Fau%2Fwp-content%2Fuploads%2F2018%2F03%2Fwhat-is-a-survey-or-questionare.jpg&f=1&nofb=1&ipt=c3a4bb2940521bca7e3f57e24477568438969794701f0b180d2ab4d0b97cc7f9&ipo=images');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(117, 139, 253, 0.85);
+    height: auto;
+    max-width: 700px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+#welcome {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#welcome h1 {
+    margin: 0 0 1rem 0;
+    font-size: 3rem;
+}
+
+#welcome p {
+    font-size: 1.5rem;
+}
+
+fieldset {
+    border: none;
+    padding: 1rem;
+}
+
+legend {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+label, #age, #skills, #more{
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    color: #141724;
+    margin-top: 0.5rem;
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;    
+    border: none;
+}
+
+option{
+    color: #141724;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+.opt {
+    font-size: 1rem;
+}
+
+textarea {
+    color: #141724;
+    margin-top: 0.5rem;
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 0 0 1.8em 0;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #147233;
+    min-width: 300px;
+    border: none;
+}
